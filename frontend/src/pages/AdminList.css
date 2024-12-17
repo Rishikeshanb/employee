@@ -1,0 +1,71 @@
+
+.admins {
+  background-color: #000; 
+  color: #fff; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.admins h1 {
+  font-size: 2.5rem;
+  color: #fff; 
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.admin-card {
+  background-color: #1a1a1a; 
+  color: #fff; 
+  border: 1px solid #444; 
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px 0;
+  width: 350px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+}
+
+.admin-card:hover {
+  transform: scale(1.03); 
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6);
+}
+
+.admin-card p {
+  margin: 8px 0;
+}
+
+.label {
+  font-weight: bold;
+  color: #ccc; 
+}
+
+.small-button {
+  background-color: #28a745; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px; 
+  transition: background-color 0.3s ease;
+}
+
+.small-button:hover {
+  background-color: #218838; 
+}
+
+.active {
+  border: 2px solid #28a745; 
+  box-shadow: 0 0 8px #28a745;
+}
